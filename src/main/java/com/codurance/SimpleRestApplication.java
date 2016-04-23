@@ -7,7 +7,7 @@ import static spark.Spark.get;
 
 public class SimpleRestApplication {
     public static void main(String[] args) {
-        get("/", respondWith("Saluto mundo!!!!"));
+        get("/", respondWith("Saluto mundo Sylvester!!!"));
         get("/hello", respondWith(new HelloWorld().sayHelloWorld()));
         get("/healthcheck", respondWith("OK"));
     }
