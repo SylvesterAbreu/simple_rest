@@ -5,6 +5,6 @@ services:
     image: registry.training.local/workstation-12:${IMAGE_VERSION}
     network_mode: bridge
     environment:
-      -"SERVICE_NAME=sylvester"
+      - "SERVICE_NAME=sylvester"
     ports:
       - "4567"
